@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/monorepo/static/js/main.426c4ae4.chunk.js",
+    "main.js.map": "/monorepo/static/js/main.426c4ae4.chunk.js.map",
+    "runtime-main.js": "/monorepo/static/js/runtime-main.aee3fcde.js",
+    "runtime-main.js.map": "/monorepo/static/js/runtime-main.aee3fcde.js.map",
+    "static/js/2.75e9953f.chunk.js": "/monorepo/static/js/2.75e9953f.chunk.js",
+    "static/js/2.75e9953f.chunk.js.map": "/monorepo/static/js/2.75e9953f.chunk.js.map",
+    "index.html": "/monorepo/index.html",
+    "static/js/2.75e9953f.chunk.js.LICENSE.txt": "/monorepo/static/js/2.75e9953f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aee3fcde.js",
+    "static/js/2.75e9953f.chunk.js",
+    "static/js/main.426c4ae4.chunk.js"
+  ]
+}
