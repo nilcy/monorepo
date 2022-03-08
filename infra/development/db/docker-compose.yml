@@ -1,0 +1,14 @@
+version: "3.4"
+
+x-environment: &environment
+  - POSTGRES_USER=user
+  - POSTGRES_PASSWORD=password
+  - POSTGRES_DB=db
+
+services:
+  db:
+    image: postgres:latest
+    environment: *environment
+    ports:
+      - 5432:5432
+    container_name: db
