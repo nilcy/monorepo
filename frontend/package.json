@@ -1,7 +1,8 @@
 {
   "name": "frontend",
-  "version": "5.0.0",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "http://nilcy.github.io/monorepo/",
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
@@ -22,7 +23,9 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -42,7 +45,8 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@types/styled-components": "latest",
-    "craco-alias": "^3.0.1",
+    "craco-alias": "latest",
+    "gh-pages": "latest",
     "typescript": "latest"
   }
 }
