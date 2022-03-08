@@ -6,6 +6,7 @@
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
     "@mui/material": "latest",
+    "@tanstack/react-location": "latest",
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
     "@testing-library/user-event": "latest",
