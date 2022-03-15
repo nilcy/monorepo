@@ -22,6 +22,7 @@ cloud モノリス {
 ```
 
 </details>
+
 ![](./container_monolith.svg)
 
 ## マイクロサービスとダイレクトアクセス
