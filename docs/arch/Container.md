@@ -2,9 +2,6 @@
 
 ## モノリス
 
-<details>
-<summary>コード</summary>
-
 ```plantuml:container_monolith
 @startuml
 skinparam monochrome true
@@ -21,14 +18,9 @@ cloud モノリス {
 @enduml
 ```
 
-</details>
-
 ![](./container_monolith.svg)
 
 ## マイクロサービスとダイレクトアクセス
-
-<details>
-<summary>コード</summary>
 
 ```plantuml:container_direct
 @startuml
@@ -60,14 +52,9 @@ cloud マイクロサービス {
 @enduml
 ```
 
-</details>
-
 ![](./container_direct.svg)
 
 ## マイクロサービスとゲートウェイ
-
-<details>
-<summary>コード</summary>
 
 ```plantuml:container_gateway
 @startuml
@@ -102,14 +89,9 @@ cloud マイクロサービス {
 @enduml
 ```
 
-</details>
-
 ![](./container_gateway.svg)
 
 ## マイクロサービスと GraphQL フェデレーション
-
-<details>
-<summary>コード</summary>
 
 ```plantuml:container_federation
 @startuml
@@ -124,17 +106,11 @@ cloud フロントエンド {
     カスタマー --> ウェブアプリ : React
     カスタマー --> モバイルアプリ : React Native
 }
-cloud BFF {
-    control ウェブBFF
-    control モバイルBFF
-    ウェブアプリ --> ウェブBFF : GraphQL
-    モバイルアプリ --> モバイルBFF : GraphQL
-}
 cloud フェデレーション {
     control ゲートウェイ
     entity スキーマレジストリ
-    ウェブBFF --> ゲートウェイ : GraphQL
-    モバイルBFF --> ゲートウェイ : GraphQL
+    ウェブアプリ --> ゲートウェイ : GraphQL
+    モバイルアプリ --> ゲートウェイ : GraphQL
     ゲートウェイ <- スキーマレジストリ : 統合スキーマ
 }
 cloud ドメイングラフサービス_キャッシュ {
@@ -169,7 +145,5 @@ cloud 外部サービス {
 サービス --> 外部サービス2 : REST
 @enduml
 ```
-
-</details>
 
 ![](./container_federation.svg)
