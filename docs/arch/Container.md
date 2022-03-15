@@ -27,7 +27,10 @@ cloud モノリス {
 
 ## マイクロサービスとダイレクトアクセス
 
-```plantuml
+<details>
+<summary>コード</summary>
+
+```plantuml:container_direct
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -57,9 +60,16 @@ cloud マイクロサービス {
 @enduml
 ```
 
+</details>
+
+![](./container_direct.svg)
+
 ## マイクロサービスとゲートウェイ
 
-```plantuml
+<details>
+<summary>コード</summary>
+
+```plantuml:container_gateway
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -92,9 +102,16 @@ cloud マイクロサービス {
 @enduml
 ```
 
+</details>
+
+![](./container_gateway.svg)
+
 ## マイクロサービスと GraphQL フェデレーション
 
-```plantuml
+<details>
+<summary>コード</summary>
+
+```plantuml:container_federation
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -152,3 +169,7 @@ cloud 外部サービス {
 サービス --> 外部サービス2 : REST
 @enduml
 ```
+
+</details>
+
+![](./container_federation.svg)
