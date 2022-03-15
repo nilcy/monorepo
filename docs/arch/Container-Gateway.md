@@ -2,7 +2,7 @@
 
 ## API ゲートウェイ
 
-```plantuml
+```plantuml:images/container-gateway
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -83,3 +83,5 @@ cloud 外部サービス {
 リゾルバP --> 外部サービス2 : 直接データ取得&更新(REST)\n(スキーマ変換なし)
 @enduml
 ```
+
+![](./images/container-gateway.svg)
