@@ -2,7 +2,7 @@
 
 ## モノリス
 
-```plantuml
+```plantuml:container_monolith
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -17,6 +17,8 @@ cloud モノリス {
 }
 @enduml
 ```
+
+![](./container_monolith.svg)
 
 ## マイクロサービスとダイレクトアクセス
 
