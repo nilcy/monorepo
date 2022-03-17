@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="226px" preserveAspectRatio="none" style="width:664px;height:226px;background:#FFFFFF;" version="1.1" viewBox="0 0 664 226" width="664px" zoomAndPan="magnify"><defs/><g><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><g id="elem_User"><ellipse cx="21.5" cy="84.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M21.5,92.5 L21.5,119.5 M8.5,100.5 L34.5,100.5 M21.5,119.5 L8.5,134.5 M21.5,119.5 L34.5,134.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="31" x="6" y="148.9951">User</text></g><!--MD5=[07195d525525cc0480658c6597d67392]
+entity Amplify--><g id="elem_Amplify"><path d="M143.5,94 L143.5,118 M143.5,106 L160.5,106 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><ellipse cx="172.5" cy="106" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="56" x="136" y="134.9951">Amplify</text></g><!--MD5=[85631691483a3731237a27ca9226e85d]
+entity AppSync--><g id="elem_AppSync"><ellipse cx="342" cy="106" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="338,94,344,89,342,94,344,99,338,94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="64" x="310" y="134.9951">AppSync</text></g><!--MD5=[8a85204ffed93595264e007aee3f1952]
+entity ElasticBeanstalk1--><g id="elem_ElasticBeanstalk1"><ellipse cx="593.5" cy="23" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="589.5,11,595.5,6,593.5,11,595.5,16,589.5,11" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="127" x="530" y="51.9951">ElasticBeanstalk1</text></g><!--MD5=[08994f14067f1cd54e529a6c6c6ddd9e]
+entity ElasticBeanstalk2--><g id="elem_ElasticBeanstalk2"><ellipse cx="593.5" cy="106" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="589.5,94,595.5,89,593.5,94,595.5,99,589.5,94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="126" x="530.5" y="134.9951">ElasticBeanstalk2</text></g><!--MD5=[ce7f02c3a165a5d3e7b07c6def178045]
+entity ElasticBeanstalk3--><g id="elem_ElasticBeanstalk3"><ellipse cx="593.5" cy="189" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="589.5,177,595.5,172,593.5,177,595.5,182,589.5,177" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="127" x="530" y="217.9951">ElasticBeanstalk3</text></g><!--MD5=[50352aeaf6e004970db304a5909f63fe]
+link User to Amplify--><g id="link_User_Amplify"><path d="M37.0068,114 C60.2841,114 106.35,114 135.863,114 " fill="none" id="User-Amplify" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="13" lengthAdjust="spacing" textLength="37" x="68" y="110.0669">React</text></g><!--MD5=[1e4a2ab9158d83993eac75488533559b]
+link Amplify to AppSync--><g id="link_Amplify_AppSync"><path d="M192.114,114 C223.934,114 276.587,114 309.998,114 " fill="none" id="Amplify-AppSync" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="13" lengthAdjust="spacing" textLength="56" x="223" y="110.0669">GraphQL</text></g><!--MD5=[9a96d6f9b14d7d48a9b41b2c35cab6e6]
+link AppSync to ElasticBeanstalk1--><g id="link_AppSync_ElasticBeanstalk1"><path d="M374.136,100.605 C383.652,96.683 394.194,92.51 404,89 C445.424,74.173 492.757,59.617 529.628,48.796 " fill="none" id="AppSync-ElasticBeanstalk1" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="13" lengthAdjust="spacing" textLength="33" x="435.5" y="55.0669">REST</text></g><!--MD5=[faa4c64711651b32b903822d7ebebd84]
+link AppSync to ElasticBeanstalk2--><g id="link_AppSync_ElasticBeanstalk2"><path d="M374.095,114 C413.023,114 480.623,114 530.332,114 " fill="none" id="AppSync-ElasticBeanstalk2" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="13" lengthAdjust="spacing" textLength="52" x="426" y="110.0669">Lambda</text></g><!--MD5=[806c0510bb47c9e626cdcbbd584b7d39]
+link AppSync to ElasticBeanstalk3--><g id="link_AppSync_ElasticBeanstalk3"><path d="M374.136,127.3947 C383.652,131.3166 394.194,135.4901 404,139 C445.424,153.8273 492.757,168.3829 529.628,179.2037 " fill="none" id="AppSync-ElasticBeanstalk3" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="13" lengthAdjust="spacing" textLength="94" x="405" y="135.0669">Step Functions</text></g><!--MD5=[24f43c24c8960f223b63d7677a7457da]
+@startuml
+skinparam monochrome true
+skinparam handwritten false
+skinparam defaultFontName "Yu Gothic UI, sans-serif"
+left to right direction
+actor User
+boundary Amplify
+control AppSync
+control ElasticBeanstalk1
+control ElasticBeanstalk2
+control ElasticBeanstalk3
+User - - Amplify : React
+Amplify - - AppSync : GraphQL
+AppSync - - ElasticBeanstalk1 : REST
+AppSync - - ElasticBeanstalk2 : Lambda
+AppSync - - ElasticBeanstalk3 : Step Functions
+@enduml
+
+PlantUML version 1.2022.3beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

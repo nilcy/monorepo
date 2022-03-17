@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="226px" preserveAspectRatio="none" style="width:384px;height:226px;background:#FFFFFF;" version="1.1" viewBox="0 0 384 226" width="384px" zoomAndPan="magnify"><defs/><g><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><g id="elem_User"><ellipse cx="21.5" cy="84.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M21.5,92.5 L21.5,119.5 M8.5,100.5 L34.5,100.5 M21.5,119.5 L8.5,134.5 M21.5,119.5 L34.5,134.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="31" x="6" y="148.9951">User</text></g><!--MD5=[194a92f280a7d2c2f105939ff984a7cf]
+entity Frontend--><g id="elem_Frontend"><path d="M109.5,94 L109.5,118 M109.5,106 L126.5,106 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><ellipse cx="138.5" cy="106" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="66" x="97" y="134.9951">Frontend</text></g><!--MD5=[1732e5a1fdc1f29c6199476438547c70]
+entity BFF--><g id="elem_BFF"><ellipse cx="239" cy="106" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="235,94,241,89,239,94,241,99,235,94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="26" x="226" y="134.9951">BFF</text></g><!--MD5=[9af07bce880c454b1ef790b1ee2852a8]
+entity Service1--><g id="elem_Service1"><ellipse cx="346" cy="23" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="342,11,348,6,346,11,348,16,342,11" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="62" x="315" y="51.9951">Service1</text></g><!--MD5=[26d67a3002bd09023e70231eda9154a3]
+entity Service2--><g id="elem_Service2"><ellipse cx="346" cy="106" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="342,94,348,89,346,94,348,99,342,94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="61" x="315.5" y="134.9951">Service2</text></g><!--MD5=[db3ba29948fd76c6403cb2af6e31675e]
+entity Service3--><g id="elem_Service3"><ellipse cx="346" cy="189" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="342,177,348,172,346,177,348,182,342,177" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="62" x="315" y="217.9951">Service3</text></g><!--MD5=[c9f718fe4a051611c03c12aa41ba5d12]
+link User to Frontend--><g id="link_User_Frontend"><path d="M37.3084,114 C52.6259,114 77.0302,114 96.8117,114 " fill="none" id="User-Frontend" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b8cc69bf0a9f57b152508742333340cf]
+link Frontend to BFF--><g id="link_Frontend_BFF"><path d="M163.104,114 C182.925,114 207.438,114 222.902,114 " fill="none" id="Frontend-BFF" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[79d2651e199ed2698064d4cab100754e]
+link BFF to Service1--><g id="link_BFF_Service1"><path d="M255.044,102.108 C270.581,89.826 295.252,70.325 314.83,54.849 " fill="none" id="BFF-Service1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[92fab35987ae6bf6c42347825e90b737]
+link BFF to Service2--><g id="link_BFF_Service2"><path d="M255.044,114 C270.695,114 295.612,114 315.258,114 " fill="none" id="BFF-Service2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5a059cf5e4a55c91fedbd208a73a04a7]
+link BFF to Service3--><g id="link_BFF_Service3"><path d="M255.044,125.8919 C270.581,138.1738 295.252,157.6751 314.83,173.1513 " fill="none" id="BFF-Service3" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d8253ae8c5baf7ffc3eba6f08ba312e4]
+@startuml
+skinparam monochrome true
+skinparam handwritten false
+skinparam defaultFontName "Yu Gothic UI, sans-serif"
+left to right direction
+actor User
+boundary Frontend
+control BFF
+control Service1
+control Service2
+control Service3
+User - - Frontend
+Frontend - - BFF
+BFF - - Service1
+BFF - - Service2
+BFF - - Service3
+@enduml
+
+PlantUML version 1.2022.3beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

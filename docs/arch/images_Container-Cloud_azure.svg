@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="226px" preserveAspectRatio="none" style="width:652px;height:226px;background:#FFFFFF;" version="1.1" viewBox="0 0 652 226" width="652px" zoomAndPan="magnify"><defs/><g><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><g id="elem_User"><ellipse cx="21.5" cy="84.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M21.5,92.5 L21.5,119.5 M8.5,100.5 L34.5,100.5 M21.5,119.5 L8.5,134.5 M21.5,119.5 L34.5,134.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="31" x="6" y="148.9951">User</text></g><!--MD5=[907df72fbbecbad018b0540ed2bffab7]
+entity MobileApps--><g id="elem_MobileApps"><path d="M158,94 L158,118 M158,106 L175,106 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><ellipse cx="187" cy="106" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="85" x="136" y="134.9951">MobileApps</text></g><!--MD5=[c3df86571f834499f7b572b4ffa00c75]
+entity AppService--><g id="elem_AppService"><ellipse cx="380.5" cy="106" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="376.5,94,382.5,89,380.5,94,382.5,99,376.5,94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="83" x="339" y="134.9951">AppService</text></g><!--MD5=[51ac60ca22b5f97f389e3b41946cd574]
+entity AppService1--><g id="elem_AppService1"><ellipse cx="599" cy="23" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="595,11,601,6,599,11,601,16,595,11" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="92" x="553" y="51.9951">AppService1</text></g><!--MD5=[1cf52852f67381589db447b4ea739132]
+entity AppService2--><g id="elem_AppService2"><ellipse cx="599" cy="106" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="595,94,601,89,599,94,601,99,595,94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="91" x="553.5" y="134.9951">AppService2</text></g><!--MD5=[c4999834f0b165e1551e37729710a1d5]
+entity AppService3--><g id="elem_AppService3"><ellipse cx="599" cy="189" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><polygon fill="#181818" points="595,177,601,172,599,177,601,182,595,177" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="14" lengthAdjust="spacing" textLength="92" x="553" y="217.9951">AppService3</text></g><!--MD5=[358cba6b1f22f694154c222efca5eb17]
+link User to MobileApps--><g id="link_User_MobileApps"><path d="M37.082,114 C59.4644,114 103.1291,114 135.854,114 " fill="none" id="User-MobileApps" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="13" lengthAdjust="spacing" textLength="37" x="68" y="110.0669">React</text></g><!--MD5=[22814b5bf0191dfaa9ba804001e323d2]
+link MobileApps to AppService--><g id="link_MobileApps_AppService"><path d="M221.427,114 C256.019,114 304.799,114 338.995,114 " fill="none" id="MobileApps-AppService" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="13" lengthAdjust="spacing" textLength="56" x="252" y="110.0669">GraphQL</text></g><!--MD5=[a668e6de12a4145fb03c540ec16620cd]
+link AppService to AppService1--><g id="link_AppService_AppService1"><path d="M422.222,98.388 C459.459,84.113 514.446,63.032 552.977,48.261 " fill="none" id="AppService-AppService1" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="13" lengthAdjust="spacing" textLength="33" x="471" y="57.0669">REST</text></g><!--MD5=[6098b893deca35ee1e8320ae770ea572]
+link AppService to AppService2--><g id="link_AppService_AppService2"><path d="M422.222,114 C459.581,114 514.808,114 553.356,114 " fill="none" id="AppService-AppService2" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="13" lengthAdjust="spacing" textLength="61" x="457" y="110.0669">Functions</text></g><!--MD5=[088cbefc98b0667e97dad968bbdae03c]
+link AppService to AppService3--><g id="link_AppService_AppService3"><path d="M422.222,129.6117 C459.459,143.8872 514.446,164.9676 552.977,179.7393 " fill="none" id="AppService-AppService3" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="&quot;Yu Gothic UI, sans-serif&quot;" font-size="13" lengthAdjust="spacing" textLength="69" x="453" y="140.0669">Logic Apps</text></g><!--MD5=[21d743c9e34c0663b00e43a70fffb7cc]
+@startuml
+skinparam monochrome true
+skinparam handwritten false
+skinparam defaultFontName "Yu Gothic UI, sans-serif"
+left to right direction
+actor User
+boundary MobileApps
+control AppService
+control AppService1
+control AppService2
+control AppService3
+User - - MobileApps : React
+MobileApps - - AppService : GraphQL
+AppService - - AppService1 : REST
+AppService - - AppService2 : Functions
+AppService - - AppService3 : Logic Apps
+@enduml
+
+PlantUML version 1.2022.3beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
