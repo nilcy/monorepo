@@ -2,7 +2,7 @@
 
 ## モノリス
 
-```plantuml:images/Container_monolith
+```plantuml:images_Container_monolith
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -18,11 +18,11 @@ cloud モノリス {
 @enduml
 ```
 
-![](./images/Container_monolith.svg)
+![](./images_Container_monolith.svg)
 
 ## マイクロサービスとダイレクトアクセス
 
-```plantuml:images/Container_direct
+```plantuml:images_Container_direct
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -52,11 +52,11 @@ cloud マイクロサービス {
 @enduml
 ```
 
-![](./images/Container_direct.svg)
+![](./images_Container_direct.svg)
 
 ## マイクロサービスとゲートウェイ
 
-```plantuml:images/Container_gateway
+```plantuml:images_Container_gateway
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -89,11 +89,11 @@ cloud マイクロサービス {
 @enduml
 ```
 
-![](./images/Container_gateway.svg)
+![](./images_Container_gateway.svg)
 
 ## マイクロサービスと GraphQL フェデレーション
 
-```plantuml:images/Container_federation
+```plantuml:images_Container_federation
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -146,4 +146,4 @@ cloud 外部サービス {
 @enduml
 ```
 
-![](./images/Container_federation.svg)
+![](./images_Container_federation.svg)

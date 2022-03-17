@@ -2,7 +2,7 @@
 
 ## API ゲートウェイ
 
-```plantuml:images/container-gateway
+```plantuml:images_Container-Gateway
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -84,4 +84,4 @@ cloud 外部サービス {
 @enduml
 ```
 
-![](./images/container-gateway.svg)
+![](./images_Container-Gateway.svg)

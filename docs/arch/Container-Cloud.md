@@ -1,6 +1,6 @@
 # コンテナ
 
-```plantuml:images/container-cloud
+```plantuml:images_Container-Cloud
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -20,11 +20,11 @@ BFF -- Service3
 @enduml
 ```
 
-![](./images/container-cloud.svg)
+![](./images_Container-Cloud.svg)
 
 ## AWS
 
-```plantuml:images/container-cloud_aws
+```plantuml:images_Container-Cloud_aws
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -44,11 +44,11 @@ AppSync -- ElasticBeanstalk3 : Step Functions
 @enduml
 ```
 
-![](./images/container-cloud_aws.svg)
+![](./images_Container-Cloud_aws.svg)
 
 ## Azure
 
-```plantuml:images/container-cloud_azure
+```plantuml:images_Container-Cloud_azure
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -68,11 +68,11 @@ AppService -- AppService3 : Logic Apps
 @enduml
 ```
 
-![](./images/container-cloud_azure.svg)
+![](./images_Container-Cloud_azure.svg)
 
 ## GCP
 
-```plantuml:images/container-cloud_gcp
+```plantuml:images_Container-Cloud_gcp
 @startuml
 skinparam monochrome true
 skinparam handwritten false
@@ -92,4 +92,4 @@ AppEngine -- AppEngine3 : Workflow
 @enduml
 ```
 
-![](./images/container-cloud_gcp.svg)
+![](./images_Container-Cloud_gcp.svg)
